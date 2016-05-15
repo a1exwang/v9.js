@@ -425,10 +425,11 @@
         };
         initButtons = function() {
             $("#runBtn").click(function() {
-                onCpuReady(function() {
-                    doAtCpuReady();
-                    v9Cpu.runNonStop(doAtCpuPause);
-                });
+                // onCpuReady(function() {
+                //     doAtCpuReady();
+                //     v9Cpu.runNonStop(doAtCpuPause);
+                // });
+                initAlexMachine();
             });
             $("#stepBtn").click(function() {
                 onCpuReady(function() {

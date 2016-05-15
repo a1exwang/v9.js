@@ -3,4 +3,4 @@
 /server/xvcc
 /.idea/*
 /server/tmp*
-/server/alex-machine/*
+/assets/js/alex-machine/*
