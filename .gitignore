@@ -1,0 +1,5 @@
+/server/node_modules/*
+/server/mkfs
+/server/xvcc
+/.idea/*
+/server/tmp*
